@@ -44,7 +44,7 @@ dummy_handler (struct module *module, int cmd, void *arg)
 }
   
 static moduledata_t syscall_mod = {
- "Intercept", 
+ "SA-10:07.mbuf",
  dummy_handler,
  NULL
 };
